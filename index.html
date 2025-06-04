@@ -7,30 +7,40 @@
 </head>
 <body>
     <div class="Calculator">
-        <div class="display" id="display">0</div>
-        <div class="buttons">
-            <button id="clear">C</button>
-            <button id="backspace">⌫</button>
-            <button id="divide">÷</button>
-            <button id="multiply">×</button>
+        <div id="display" class="display">0</div>
+        <div id="left-to-right-display" class="left-to-right-display">Left-to-Right: 0</div>
+        <div id="mdas-display" class="mdas-display">MDAS: 0</div>
+        <div id="memory-indicator" style="color: #ffcc00; padding: 5px; font-weight: bold; display:none;">M</div>
 
+        
+        <div class="buttons">
+            <button id="memory-add">M+</button>
+            <button id="memory-subtract">M-</button>
+            <button id="memory-recall">MR</button>
+            <button id="memory-clear">MC</button>
+
+            <button id="clear">C</button>
+            <button class ="backspace"id="backspace">⌫</button>
+            <button id="divide" class="operator">÷</button>
+            
             <button id="seven">7</button>
             <button id="eight">8</button>
             <button id="nine">9</button>
-            <button id="subtract">−</button>
-
+            <button id="multiply" class="operator">×</button>
+            
             <button id="four">4</button>
             <button id="five">5</button>
             <button id="six">6</button>
-            <button id="add">+</button>
-
+            <button id="subtract" class="operator">−</button>
+            
             <button id="one">1</button>
             <button id="two">2</button>
             <button id="three">3</button>
-            <button id="equals">=</button>
-
+            <button id="add" class="operator">+</button>
+            
             <button id="zero" class="zero">0</button>
-            <button id="decimal" class="decimal">.</button>
+            <button id="decimal">.</button>
+            <button id="equals" class="equals">=</button>
         </div>
     </div>
 
